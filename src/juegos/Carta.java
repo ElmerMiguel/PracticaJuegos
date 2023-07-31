@@ -56,6 +56,6 @@ public class Carta {
         }
 
         System.out.println("\nTe has quedado sin dinero. El juego ha terminado.");
-       // sc.close();
+       
     }
 }

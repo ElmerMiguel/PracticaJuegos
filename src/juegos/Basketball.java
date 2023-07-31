@@ -87,7 +87,7 @@ public class Basketball {
             System.out.println("¡Es un empate!");
         }
 
-        sc.close();
+        
     }
 
     private static int elegirAccion(Scanner sc) {

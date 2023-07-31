@@ -55,7 +55,7 @@ public class Ahorcado {
             System.out.println("\n¡Oh no! Has perdido. La palabra era: " + PALABRA_ADIVINAR);
         }
 
-        sc.close();
+        
     }
 
     // Método para dibujar el ahorcado según el número de intentos
