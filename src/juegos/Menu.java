@@ -2,11 +2,13 @@
 package juegos;
 import java.util.Scanner;
 import java.util.Random;
+import juegos.Carta;
 
 // @author Elmer
 public class Menu {
     
     public static void main(String[] args) {
+        Carta juegocarta = new Carta();
         Scanner scanner = new Scanner(System.in);
         int opcion;
         
@@ -28,7 +30,7 @@ public class Menu {
                     jugarBasketball();
                     break;
                 case 3:
-                    jugarJuegoCartas();
+                    juegocarta.juego();
                     break;
                 case 0:
                     System.out.println("Gracias por jugar. ¡Hasta luego!");
